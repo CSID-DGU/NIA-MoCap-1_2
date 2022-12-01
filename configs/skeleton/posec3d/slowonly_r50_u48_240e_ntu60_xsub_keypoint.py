@@ -25,8 +25,8 @@ model = dict(
     test_cfg=dict(average_clips='prob'))
 
 dataset_type = 'PoseDataset'
-ann_file_train = 'data/posec3d/ntu60_xsub_train.pkl'
-ann_file_val = 'data/posec3d/ntu60_xsub_val.pkl'
+ann_file_train = '/home/irteam/dcloud-global-dir/NIAMoCap/Data/posec3d/ntu60_xsub_train.pkl'
+ann_file_val = '/home/irteam/dcloud-global-dir/NIAMoCap/Data/posec3d/ntu60_xsub_val.pkl'
 left_kp = [1, 3, 5, 7, 9, 11, 13, 15]
 right_kp = [2, 4, 6, 8, 10, 12, 14, 16]
 train_pipeline = [
